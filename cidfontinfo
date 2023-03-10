@@ -1,12 +1,12 @@
-FontName                   (AND-Regular)
-FullName                   (Adobe NotDef)
-FamilyName                 (Adobe NotDef)
+FontName                   (nofont-Regular)
+FullName                   (nofont)
+FamilyName                 (nofont)
 Weight                     (Regular)
-version                    (1.001)
+version                    (1.000)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
-AdobeCopyright             (Copyright 2016-2019 Adobe (http://www.adobe.com/).)
+AdobeCopyright             (Copyright 2023 Michael Chang (https://mchang.name/).)
 Trademark                  ()
 FSType                     0
 isFixedPitch               true
@@ -17,4 +17,4 @@ PreferOS/2TypoMetrics      false
 IsOS/2WidthWeigthSlopeOnly false
 IsOS/2OBLIQUE              false
 UseOldNameID4              false
-LicenseCode                ADOBE
+LicenseCode                OFL

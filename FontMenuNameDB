@@ -1,4 +1,4 @@
-[AND-Regular]
-	f=Adobe NotDef
+[nofont-Regular]
+	f=nofont
 	s=Regular
-	l=Adobe NotDef
+	l=nofont

@@ -8,11 +8,11 @@ makeotf -f cidfont.ps -omitMacNames -ff features -fi cidfontinfo -mf FontMenuNam
 
 # Removed the 'VORG', 'vhea', and 'vmtx' tables that can be safely
 # purged
-sfntedit -d VORG,vhea,vmtx AND-Regular.otf
+sfntedit -d VORG,vhea,vmtx nofont-Regular.otf
 
 # Convert the OTF to TTF, and remove its "stub" 'DSIG' table
-otf2ttf AND-Regular.otf
-sfntedit -d DSIG AND-Regular.ttf
+otf2ttf nofont-Regular.otf
+sfntedit -d DSIG nofont-Regular.ttf
 
 # For those who want to replace the glyph with one of their own
 # design, the source name-keyed Type 1 font, font.pfa, is supplied as
